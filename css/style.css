@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+/*common*/
+header, section, footer {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*header*/
+#header {
+    height: 80px;
+    background-color: black;
+    position: fixed;
+}
+
+p a.nameAndSurname {
+    float: left;
+    line-height: 75px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul.menuHeader {
+    float: right;
+}
+
+.menuHeader li {
+    display: inline-block;
+    line-height: 75px;
+    margin-right: 10px;
+}
+
+.menuHeader li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*gallery*/
+#gallery {
+    height: 1000px;
+    background-color: darkblue;
+}
+
+#attribiutes {
+    height: 1000px;
+    background-color: yellow;
+}
+
+#projects {
+    height: 1000px;
+    background-color: red;
+}
+
+#education {
+    height: 1000px;
+    background-color: orange;
+}
+
+#skills {
+    height: 1000px;
+    background-color: cadetblue;
+}
+
+#maps {
+    height: 1000px;
+    background-color: darkblue;
+}
+
+#contact {
+    height: 1000px;
+    background-color: grey;
+}
