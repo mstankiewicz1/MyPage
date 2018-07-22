@@ -17,6 +17,7 @@ header, section, footer {
     height: 80px;
     background-color: black;
     position: fixed;
+    opacity: .6;
 }
 
 p a.nameAndSurname {
@@ -24,7 +25,19 @@ p a.nameAndSurname {
     line-height: 75px;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: #848484;
+    margin-right: 10px;
+}
+
+p a.nameAndSurname:hover {
+        color: white;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    float: left;
+
 }
 
 nav ul.menuHeader {
@@ -35,24 +48,71 @@ nav ul.menuHeader {
     display: inline-block;
     line-height: 75px;
     margin-right: 10px;
+    position: relative;
 }
 
 .menuHeader li a {
     text-decoration: none;
+    color: #848484;
+    display: block;
+}
+
+.menuHeader li:hover > a {
     color: white;
+}
+
+.menuHeader ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    position: absolute;
+    width: 140px;
+    top: 75px;
+    background-color: black;
+    text-align: center;
+}
+
+.menuHeader ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuHeader li:hover > ul {
+    display: block;
 }
 
 
 /*gallery*/
 #gallery {
-    height: 1000px;
     background-color: darkblue;
+    height: 750px;
+    /*z-index: 2;*/
 }
+
+.mySlides {
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+}
+
+
+
 
 #attribiutes {
     height: 1000px;
     background-color: yellow;
 }
+
+
+
+
+
+
+
+
+
 
 #projects {
     height: 1000px;

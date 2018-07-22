@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Marek Stankiewicz</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
         <section id="header">
             <div class="container">
                 <p><a class="nameAndSurname" href="index.html">MAREK STANKIEWICZ</a></p>
+                <img class="logo" src="images/react-logo.png">
                 <nav>
                     <ul class="menuHeader">
                         <li><a href="index.html">STRONA GŁÓWNA</a></li>
                         <li><a href="#attribiutes">ATRYBUTY</a></li>
-                        <li><a href="#projects">PROJEKTY</a></li>
+                        <li><a href="#projects">PROJEKTY</a>
+                            <ul>
+                                <li><a href="#">PROJEKT 1</a></li>
+                                <li><a href="#">PROJEKT 2</a></li>
+                                <li><a href="#">PROJEKT 3</a></li>
+                                <li><a href="#">PROJEKT 4</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#education">EDUKACJA</a></li>
                         <li><a href="#skills">UMIEJĘTOŚCI</a></li>
                         <li><a href="#contact">KONTAKT</a></li>
@@ -26,6 +34,12 @@
     </header>
 
     <section id="gallery">
+        <div class="slider">
+            <img class="mySlides" src="images/photo1.JPG" alt="slide photo">
+            <img class="mySlides" src="images/photo2.jpg" alt="slide photo">
+            <img class="mySlides" src="images/photo3.jpg" alt="slide photo">
+            <img class="mySlides" src="images/photo4.jpg" alt="slide photo">
+        </div>
     </section>
 
     <section id="attribiutes">
@@ -60,5 +74,6 @@
 
         </div>
     </footer>
+<script src="js/sliderApp.js"></script>
 </body>
 </html>
