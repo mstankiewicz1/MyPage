@@ -14,19 +14,20 @@ header, section, footer {
 
 /*header*/
 #header {
-    height: 80px;
+    height: 90px;
     background-color: black;
     position: fixed;
-    opacity: .6;
+    z-index: 2;
 }
 
 p a.nameAndSurname {
     float: left;
-    line-height: 75px;
+    line-height: 60px;
     text-decoration: none;
     font-weight: bold;
     color: #848484;
     margin-right: 10px;
+    font-size: 18px;
 }
 
 p a.nameAndSurname:hover {
@@ -37,17 +38,50 @@ p a.nameAndSurname:hover {
     width: 75px;
     height: 75px;
     float: left;
-
 }
+
+.cvPdfButton {
+    background-color: black;
+    opacity: .6;
+    position: absolute;
+    top: 45px;
+    left: 115px;
+    height: 30px;
+    width: 110px;
+}
+
+.cvPdfButton a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #848484;
+    font-weight: bold;
+}
+
+.cvPdfButton:hover {
+    border: 3px solid white;
+}
+
+.cvPdfButton a:hover {
+    color: white;
+}
+
 
 nav ul.menuHeader {
     float: right;
 }
 
+.menuHeader {
+    word-spacing: 10px;
+}
+
+.menuHeader li a:first-child {
+    word-spacing: 2px;
+}
+
 .menuHeader li {
     display: inline-block;
-    line-height: 75px;
-    margin-right: 10px;
+    line-height: 85px;
+    margin-right: 20px;
     position: relative;
 }
 
@@ -55,6 +89,7 @@ nav ul.menuHeader {
     text-decoration: none;
     color: #848484;
     display: block;
+    font-weight: bold;
 }
 
 .menuHeader li:hover > a {
@@ -86,9 +121,8 @@ nav ul.menuHeader {
 
 /*gallery*/
 #gallery {
-    background-color: darkblue;
     height: 750px;
-    /*z-index: 2;*/
+    z-index: 1;
 }
 
 .mySlides {
@@ -97,12 +131,84 @@ nav ul.menuHeader {
     background-size: cover;
 }
 
-
-
-
+/*attribiutes*/
 #attribiutes {
-    height: 1000px;
-    background-color: yellow;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+p.kreatywnosc {
+    position: absolute;
+    top: 30px;
+    left: 125px;
+    font-weight: bold;
+    color: white;
+}
+
+.imgKreatywnosc {
+    height: 150px;
+    width: 150px;
+    background-image: url("../images/kreatywnosc.png");
+    background-size: cover;
+    position: absolute;
+    top: 75px;
+    left: 100px;
+}
+
+p.odpowiedzialnosc {
+    position: absolute;
+    top: 30px;
+    left: 427px;
+    font-weight: bold;
+    color: white;
+}
+
+.imgOdpowiedzialnosc {
+    height: 150px;
+    width: 150px;
+    background-image: url("../images/Odpowiedzialnosc.png");
+    background-size: cover;
+    position: absolute;
+    top: 75px;
+    left: 428px;
+}
+
+p.motywacja {
+    position: absolute;
+    top: 30px;
+    right: 435px;
+    font-weight: bold;
+    color: white;
+}
+
+.imgMotywacja {
+    height: 150px;
+    width: 150px;
+    background-image: url("../images/Motywacja.png");
+    background-size: cover;
+    position: absolute;
+    top: 75px;
+    right: 428px;
+}
+
+p.determinacja {
+    position: absolute;
+    top: 30px;
+    right: 96px;
+    font-weight: bold;
+    color: white;
+}
+
+.imgDeterminacja {
+    height: 150px;
+    width: 150px;
+    background-image: url("../images/Determinacja.png");
+    background-size: cover;
+    position: absolute;
+    top: 75px;
+    right: 100px;
 }
 
 
@@ -112,8 +218,7 @@ nav ul.menuHeader {
 
 
 
-
-
+/*projects*/
 #projects {
     height: 1000px;
     background-color: red;
