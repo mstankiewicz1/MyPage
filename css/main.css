@@ -146,6 +146,7 @@ nav ul.menuHeader {
     position: absolute;
     top: 50px;
     left: 600px;
+    font-weight: bold;
 }
 
 
@@ -239,6 +240,7 @@ p.determinacja {
     position: absolute;
     top: 10px;
     left: 600px;
+    font-weight: bold;
 }
 
 #projects .container {
@@ -255,6 +257,7 @@ p.determinacja {
 }
 
 .firstProjectDescription h3 {
+    font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 75px;
     left: 180px;
@@ -263,16 +266,25 @@ p.determinacja {
 
 }
 
-p.firstProjectParagraph {
+.firstProjectDescription p{
+    font-family: 'Kalam', cursive;
     position: absolute;
     top: 120px;
-    left: 70px;
+    left: 50px;
     color: white;
     width: 450px;
     text-align: left;
+    text-indent: 40px;
+}
+
+.firstProjectDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 .imgFirstDescription {
+    background-image: url("../images/SitOnOurChairProject.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -288,6 +300,7 @@ p.firstProjectParagraph {
 }
 
 .imgSecondDescription {
+    background-image: url("../images/memory-game.jpg");
     float: left;
     height: 286px;
     width: 600px;
@@ -295,19 +308,28 @@ p.firstProjectParagraph {
 }
 
 .secondProjectDescription h3 {
+    font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 75px;
     left: 220px;
     color: white;
+    font-size: 25px;
 }
 
 .secondProjectDescription p {
+    font-family: 'Kalam', cursive;
     position: absolute;
     top: 120px;
-    left: 220px;
+    left: 50px;
     color: white;
+    text-indent: 40px;
 }
 
+.secondProjectDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
 
 .thirdProjectDescription {
     float: left;
@@ -318,20 +340,31 @@ p.firstProjectParagraph {
 }
 
 .thirdProjectDescription h3 {
+    font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 75px;
     left: 220px;
     color: white;
+    font-size: 25px;
 }
 
 .thirdProjectDescription p {
+    font-family: 'Kalam', cursive;
     position: absolute;
     top: 120px;
-    left: 220px;
+    left: 50px;
     color: white;
+    text-indent: 40px;
+}
+
+.thirdProjectDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 .imgThirdDescription {
+    background-image: url("../images/OrganizerApp.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -342,15 +375,28 @@ p.firstProjectParagraph {
 
 
 
-
-
-
-
-
 #education {
     height: 1000px;
     background-color: orange;
+    position: relative;
 }
+
+#education h2 {
+    position: absolute;
+    font-size: 30px;
+    color: red;
+    top: 10px;
+    left: 600px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 #skills {
     height: 1000px;
