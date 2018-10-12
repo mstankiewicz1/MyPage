@@ -371,13 +371,10 @@ p.determinacja {
     border: 2px solid white;
 }
 
-
-
-
-
+/*edukacja*/
 #education {
     height: 1000px;
-    background-color: orange;
+    background-color: black;
     position: relative;
 }
 
@@ -390,8 +387,137 @@ p.determinacja {
     font-weight: bold;
 }
 
+#education .container {
+    position: absolute;
+    top: 100px;
+    left: 75px;
+}
 
+.firstSchoolDescription {
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
 
+.firstSchoolDescription h3 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    color: white;
+    font-size: 25px;
+
+}
+
+.firstSchoolDescription p{
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: white;
+    width: 450px;
+    text-align: left;
+}
+
+.firstSchoolDescription p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.firstSchoolDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.imgFirstSchool {
+    background-image: url("../images/codersLab.png");
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
+
+.secondSchoolDescription {
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.imgSecondSchool {
+    background-image: url("../images/UPV.png");
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
+
+.secondSchoolDescription h3 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 75px;
+    left: 120px;
+    color: white;
+    font-size: 25px;
+}
+
+.secondSchoolDescription p {
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: white;
+    text-indent: 40px;
+}
+
+.secondSchoolDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.thirdSchoolDescription {
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.thirdSchoolDescription h3 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 75px;
+    left: 135px;
+    color: white;
+    font-size: 25px;
+}
+
+.thirdSchoolDescription p {
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: white;
+    text-indent: 40px;
+}
+
+.thirdSchoolDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.imgThirdSchool {
+    background-image: url("../images/UP.png");
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
 
 
 
@@ -401,7 +527,24 @@ p.determinacja {
 #skills {
     height: 1000px;
     background-color: cadetblue;
+    position: relative;
 }
+
+#skills h2 {
+    color: red;
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 600px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 #maps {
     height: 1000px;
