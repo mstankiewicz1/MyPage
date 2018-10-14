@@ -8,36 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
 
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-    <script>
-        if(navigator.geolocation){
-            navigator.geolocation.getCurrentPosition(function (polozenie) {
-                var szer = polozenie.coords.latitude;
-                var dlug = polozenie.coords.longitude
-
-                var koord = new google.maps.LatLng(szer, dlug);
-
-                var opcje = {
-                    zoom: 15,
-                    center: koord,
-                    mapTypeControl: true,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-
-                var mapa = new google.maps.Map(document.getElementById("mapsKontener"), opcje);
-
-                var marker = new google.maps.Marker({
-                    position: koord,
-                    map: mapa,
-                    title: "Jesteś tutaj"
-                });
-            });
-        }else{
-            alert("Brak geolokalizacji");
-        }
-    </script>
-
 </head>
 <body>
     <header>
@@ -246,15 +216,25 @@
 
 
 
-
-
-
-
     <footer id="contact">
         <div class="container">
 
+
+
+
+
+
         </div>
     </footer>
-<script src="js/sliderApp.js"></script>
+
+
+
+
+
+
+    <script src="js/sliderApp.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="js/mapsApp.js"></script>
+
 </body>
 </html>
