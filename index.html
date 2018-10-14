@@ -15,9 +15,6 @@
             <div class="container">
                 <p><a class="nameAndSurname" href="index.html">MAREK STANKIEWICZ</a></p>
                 <img class="logo" src="images/react-logo.png">
-                <button type="button" class="cvPdfButton">
-                    <a href="CV/CV%20Marek%20Stankiewicz%205.pdf" download="CV/CV%20Marek%20Stankiewicz%205.pdf">POBIERZ CV</a>
-                </button>
                 <nav>
                     <ul class="menuHeader">
                         <li><a href="index.html">STRONA GŁÓWNA</a></li>
@@ -33,6 +30,7 @@
                         <li><a href="#education">EDUKACJA</a></li>
                         <li><a href="#skills">UMIEJĘTOŚCI</a></li>
                         <li><a href="#contact">KONTAKT</a></li>
+                        <li class="animacja"><a href="CV/CV%20Marek%20Stankiewicz%205.pdf" download="CV/CV%20Marek%20Stankiewicz%205.pdf">POBIERZ CV</a></li>
                     </ul>
                 </nav>
             </div>
@@ -153,7 +151,7 @@
 
             <div class="firstAnimationSkills">
                 <p>
-                    HTML,<br>
+                    HTML<br>
                     CSS
                 </p>
                 <div class="progress one two three four">
@@ -163,12 +161,12 @@
 
             <div class="secondAnimationSkills">
                 <p>
-                    JavaScript,<br>
-                    SASS,<br>
-                    RWD,<br>
-                    jQUERY,<br>
-                    AJAX,<br>
-                    JSON_SERVER,<br>
+                    JavaScript<br>
+                    SASS<br>
+                    RWD<br>
+                    jQUERY<br>
+                    AJAX<br>
+                    JSON_SERVER<br>
                     ES6
                 </p>
                 <div class="progress one two three four">
@@ -178,9 +176,9 @@
 
             <div class="thirdAnimationSkills">
                 <p>
-                    REACT,<br>
-                    JSX,<br>
-                    FETCH,<br>
+                    REACT<br>
+                    JSX<br>
+                    FETCH<br>
                     REACT_ROUTER<br>
                 </p>
                 <div class="progress one two three four">
@@ -190,11 +188,11 @@
 
             <div class="fourthAnimationSkills">
                 <p>
-                    GIT,<br>
-                    GitHub,<br>
-                    NPM,<br>
-                    GULP,<br>
-                    WebStorm,<br>
+                    GIT<br>
+                    GitHub<br>
+                    NPM<br>
+                    GULP<br>
+                    WebStorm<br>
                     SublimeText
                 </p>
                 <div class="progress one two three four">
@@ -212,24 +210,78 @@
     </section>
 
 
-
-
-
-
     <footer id="contact">
         <div class="container">
 
+            <div id="formularz">
+                <h2>Formularz kontaktowy</h2>
+                <form method="#" action="#" id="form">
+                    <div><input type="text" name="name" id="name" placeholder="Wpisz swoje imię"/></div>
+                    <div><input type="text" name="surname" id="surname" placeholder="Wpisz swoje nazwisko"/></div>
+                    <div><input type="text" name="email" id="email" placeholder="Wpisz swój email"/></div>
+                    <div><textarea name="message" id="message" placeholder="Wpisz treść wiadomości"></textarea></div>
+                    <div><button type="submit" id="sendBtn">Wyślij</button></div>
+                </form>
+            </div>
 
 
+            <div id="perspektywa">
+                <div id="rodzic">
+
+                    <div id="przod">
+                        <div></div>
+                    </div>
+
+                    <div id="tyl">
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <div id="lewo">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <div id="prawo">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <div id="gora">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <div id="dol">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
 
 
+            <div class="contactData">
+                <p id="nameAndSurnameContact">Marek Stankiewicz</p>
+                <p id="adressContact">Adres:<br>
+                                      00-111 Warszawa</p>
+                <p id="streetContact">ul. Główna 1</p>
+                <p id="phoneContact">tel: 510 147 517</p>
+                <p id="emailContact">Adres email: marekstankiewicz6@wp.pl</p>
+            </div>
 
         </div>
     </footer>
-
-
-
-
 
 
     <script src="js/sliderApp.js"></script>

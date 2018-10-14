@@ -22,16 +22,12 @@ header, section, footer {
 
 p a.nameAndSurname {
     float: left;
-    line-height: 60px;
+    line-height: 90px;
     text-decoration: none;
     font-weight: bold;
-    color: #848484;
+    color: white;
     margin-right: 10px;
     font-size: 18px;
-}
-
-p a.nameAndSurname:hover {
-        color: white;
 }
 
 .logo {
@@ -71,18 +67,37 @@ nav ul.menuHeader {
 }
 
 .menuHeader {
-    word-spacing: 10px;
+    word-spacing: 0;
 }
 
 .menuHeader li a:first-child {
     word-spacing: 2px;
 }
 
+
 .menuHeader li {
     display: inline-block;
     line-height: 85px;
     margin-right: 20px;
     position: relative;
+}
+
+.animacja {
+    width:30px;
+    height:30px;
+    margin:0 auto;
+    background-color:#000;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    font-size:26px;
+    animation:naszaAnimacja 4s linear infinite;
+}
+
+@keyframes naszaAnimacja
+{
+    0% { transform:perspective(300px) rotateY(0); }
+    100% { transform:perspective(300px) rotateY(360deg); }
 }
 
 .menuHeader li a {
@@ -142,7 +157,7 @@ nav ul.menuHeader {
 
 #attribiutes h2 {
     font-size: 30px;
-    color: red;
+    color: white;
     position: absolute;
     top: 50px;
     left: 600px;
@@ -236,7 +251,7 @@ p.determinacja {
 
 #projects h2 {
     font-size: 30px;
-    color: red;
+    color: white;
     position: absolute;
     top: 10px;
     left: 600px;
@@ -381,7 +396,7 @@ p.determinacja {
 #education h2 {
     position: absolute;
     font-size: 30px;
-    color: red;
+    color: white;
     top: 10px;
     left: 600px;
     font-weight: bold;
@@ -527,11 +542,11 @@ p.determinacja {
 }
 
 #skills h2 {
-    color: red;
+    color: white;
     position: absolute;
     font-size: 30px;
     top: 10px;
-    left: 600px;
+    left: 560px;
     font-weight: bold;
 }
 
@@ -671,17 +686,251 @@ p.determinacja {
 }
 
 
-
-
-
-
-
 /*Stopka kontaktowa*/
 #contact {
-    height: 1000px;
-    background-color: grey;
+    height: 425px;
+    background-color: black;
+    position: relative;
 }
 
+#formularz {
+    position: absolute;
+    width: 400px;
+    height: 425px;
+    left: 110px;
+}
+
+#formularz h2 {
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 20px;
+}
+
+#form {
+    position: absolute;
+    top: 60px;
+}
+
+#name {
+    position: absolute;
+    top: 25px;
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+#surname {
+    position: absolute;
+    top: 75px;
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+#email {
+    position: absolute;
+    top: 125px;
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+#message {
+    position: absolute;
+    top: 175px;
+    height: 100px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+#sendBtn {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 295px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Początek animacji - sześcian*/
+#perspektywa {
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    perspective:300px;
+    -webkit-perspective:300px;
+    position: absolute;
+    top: 125px;
+    left: 625px;
+}
+
+#rodzic {
+    width:100%;
+    height:100%;
+    position:relative;
+    transform-style:preserve-3d;
+    -webkit-transform-style:preserve-3d;
+    animation:obrot 4s linear infinite;
+    -webkit-animation:obrot 4s linear infinite;
+}
+
+#rodzic > div {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-image:radial-gradient(ellipse at center,rgba(0,0,255,0.8),rgba(0,0,0,0.8));
+    box-shadow:0 0 4px #00F;
+}
+
+#przod {
+    transform:translateZ(50px);
+    -webkit-transform:translateZ(50px);
+}
+
+#tyl {
+    transform:translateZ(-50px);
+    -webkit-transform:translateZ(-50px);
+}
+
+#lewo {
+    transform:rotateY(-90deg) translateZ(50px);
+    -webkit-transform:rotateY(-90deg) translateZ(50px);
+}
+
+#prawo {
+    transform:rotateY(90deg) translateZ(50px);
+    -webkit-transform:rotateY(90deg) translateZ(50px);
+}
+
+#gora {
+    transform:rotateX(-90deg) translateZ(50px);
+    -webkit-transform:rotateX(-90deg) translateZ(50px);
+}
+
+#dol {
+    transform:rotateX(90deg) translateZ(50px);
+    -webkit-transform:rotateX(90deg) translateZ(50px);
+}
+
+#rodzic > div > div {
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-color:#FFF;
+    border-radius:25%;
+    box-shadow:0 0 4px 2px #000, 0 0 3px 1px #00F inset;
+}
+
+#przod > div:nth-child(1) { left:40px; top:40px; }
+
+#tyl > div:nth-child(1) { left:10px; top:10px; }
+#tyl > div:nth-child(2) { left:70px; bottom:10px; }
+
+#lewo > div:nth-child(1) { left:10px; top:10px; }
+#lewo > div:nth-child(2) { left:40px; top:40px; }
+#lewo > div:nth-child(3) { left:70px; bottom:10px; }
+
+#prawo > div:nth-child(1) { left:10px; top:10px; }
+#prawo > div:nth-child(2) { left:70px; top:10px; }
+#prawo > div:nth-child(3) { left:70px; bottom:10px; }
+#prawo > div:nth-child(4) { left:10px; bottom:10px; }
+
+#gora > div:nth-child(1) { left:10px; top:10px; }
+#gora > div:nth-child(2) { left:70px; top:10px; }
+#gora > div:nth-child(3) { left:70px; bottom:10px; }
+#gora > div:nth-child(4) { left:10px; bottom:10px; }
+#gora > div:nth-child(5) { left:40px; top:40px; }
+
+#dol > div:nth-child(1) { left:10px; top:10px; }
+#dol > div:nth-child(2) { left:70px; top:10px; }
+#dol > div:nth-child(3) { left:10px; top:40px; }
+#dol > div:nth-child(4) { left:70px; top:40px; }
+#dol > div:nth-child(5) { left:70px; bottom:10px; }
+#dol > div:nth-child(6) { left:10px; bottom:10px; }
+
+@keyframes obrot
+{
+    0% { transform:rotateX(0) rotateZ(0); }
+    100% { transform:rotateX(360deg) rotateZ(360deg); }
+}
+
+@-webkit-keyframes obrot
+{
+    0% { -webkit-transform:rotateX(0) rotateZ(0); }
+    100% { -webkit-transform:rotateX(360deg) rotateZ(360deg); }
+}
+/*Koniec animacji - sześcian*/
+
+
+.contactData {
+    color: red;
+    position: absolute;
+    height: 425px;
+    right: 0;
+    width: 400px;
+}
+
+#nameAndSurnameContact {
+    position: absolute;
+    top: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#adressContact {
+    position: absolute;
+    top: 80px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#streetContact {
+    position: absolute;
+    top: 142px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#phoneContact {
+    position: absolute;
+    top: 185px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#emailContact {
+    position: absolute;
+    top: 230px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 
 
 
