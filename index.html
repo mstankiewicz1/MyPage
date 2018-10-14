@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <script>
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(function (polozenie) {
+                var szer = polozenie.coords.latitude;
+                var dlug = polozenie.coords.longitude
+
+                var koord = new google.maps.LatLng(szer, dlug);
+
+                var opcje = {
+                    zoom: 15,
+                    center: koord,
+                    mapTypeControl: true,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+
+                var mapa = new google.maps.Map(document.getElementById("mapsKontener"), opcje);
+
+                var marker = new google.maps.Marker({
+                    position: koord,
+                    map: mapa,
+                    title: "Jesteś tutaj"
+                });
+            });
+        }else{
+            alert("Brak geolokalizacji");
+        }
+    </script>
+
 </head>
 <body>
     <header>
@@ -144,34 +175,80 @@
     </section>
 
 
-
-
-
-
     <section id="skills">
 
         <h2>UMIEJĘTNOŚCI</h2>
 
         <div class="container">
 
-            <div>
-                <p><progress value="2" max="5">2</progress></p>
+            <div class="firstAnimationSkills">
+                <p>
+                    HTML,<br>
+                    CSS
+                </p>
+                <div class="progress one two three four">
+                    <span style="width: 50%"></span>
+                </div>
             </div>
 
+            <div class="secondAnimationSkills">
+                <p>
+                    JavaScript,<br>
+                    SASS,<br>
+                    RWD,<br>
+                    jQUERY,<br>
+                    AJAX,<br>
+                    JSON_SERVER,<br>
+                    ES6
+                </p>
+                <div class="progress one two three four">
+                    <span style="width: 50%"></span>
+                </div>
+            </div>
+
+            <div class="thirdAnimationSkills">
+                <p>
+                    REACT,<br>
+                    JSX,<br>
+                    FETCH,<br>
+                    REACT_ROUTER<br>
+                </p>
+                <div class="progress one two three four">
+                    <span style="width: 50%"></span>
+                </div>
+            </div>
+
+            <div class="fourthAnimationSkills">
+                <p>
+                    GIT,<br>
+                    GitHub,<br>
+                    NPM,<br>
+                    GULP,<br>
+                    WebStorm,<br>
+                    SublimeText
+                </p>
+                <div class="progress one two three four">
+                    <span style="width: 50%"></span>
+                </div>
+            </div>
 
         </div>
     </section>
 
 
-
-
-
-
-
-
-
     <section id="maps">
+            <div id="mapsKontener">
+            </div>
     </section>
+
+
+
+
+
+
+
+
+
 
     <footer id="contact">
         <div class="container">
