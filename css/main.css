@@ -598,10 +598,10 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
 .firstSchoolDescription a {
     position: absolute;
     top: 220px;
-    left: 240px;
+    left: 235px;
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .firstSchoolDescription p span {
@@ -643,7 +643,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 75px;
-    left: 120px;
+    left: 100px;
     color: white;
     font-size: 25px;
 }
@@ -654,16 +654,16 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     top: 120px;
     left: 50px;
     color: white;
-    text-indent: 40px;
+    text-indent: 30px;
 }
 
 .secondSchoolDescription a {
     position: absolute;
     top: 180px;
-    left: 265px;
+    left: 250px;
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .thirdSchoolDescription {
@@ -698,7 +698,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     left: 235px;
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .imgThirdSchool {
