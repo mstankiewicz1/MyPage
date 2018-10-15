@@ -61,8 +61,6 @@ nav ul.menuHeader {
 
 
 .menuHeader li#animacjaPobierzCV {
-    width: 80px;
-    height: 80px;
     position: absolute;
     top: 3px;
     right: 85px;
@@ -95,12 +93,6 @@ nav ul.menuHeader {
     font-weight: bold;
     letter-spacing: 0;
 }
-
-.menuHeader li#animacjaPobierzCV:hover {
-    width: 100px;
-    height: 75px;
-}
-
 
 .menuHeader li:hover > a {
     color: white;
@@ -335,6 +327,7 @@ button.checkCodeSecondButtonFirstProject {
 button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirstProject:hover {
     background-color: black;
     border: 4px solid white;
+    cursor: pointer;
 }
 
 a.firstLinkFirstProject {
@@ -355,11 +348,13 @@ a.secondLinkFirstProject {
 
 a.firstLinkFirstProject:hover, a.secondLinkFirstProject:hover {
     color: white;
+    cursor: pointer;
 }
 
 button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirstProject:hover {
     background-color: black;
     border: 4px solid white;
+    cursor: pointer;
 }
 
 .imgFirstDescription {
@@ -431,6 +426,7 @@ button.checkCodeSecondButtonSecondProject {
 button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSecondProject:hover  {
     background-color: black;
     border: 4px solid white;
+    cursor: pointer;
 }
 
 a.firstLinkSecondProject {
@@ -451,11 +447,13 @@ a.secondLinkSecondProject {
 
 a.firstLinkSecondProject:hover, a.secondLinkSecondProject:hover {
     color: white;
+    cursor: pointer;
 }
 
 button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSecondProject:hover {
     background-color: black;
     border: 4px solid white;
+    cursor: pointer;
 }
 
 .thirdProjectDescription {
@@ -511,6 +509,7 @@ button.checkCodeSecondButtonThirdProject {
 button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThirdProject:hover  {
     background-color: black;
     border: 4px solid white;
+    cursor: pointer;
 }
 
 a.firstLinkThirdProject {
@@ -531,11 +530,13 @@ a.secondLinkThirdProject {
 
 a.firstLinkThirdProject:hover, a.secondLinkThirdProject:hover {
     color: white;
+    cursor: pointer;
 }
 
 button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThirdProject:hover {
     background-color: black;
     border: 4px solid white;
+    cursor: pointer;
 }
 
 .imgThirdDescription {
