@@ -594,7 +594,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     width: 450px;
     text-align: left;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .firstSchoolDescription a {
     position: absolute;
     top: 220px;
@@ -603,7 +603,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .firstSchoolDescription p span {
     text-decoration: underline;
     font-weight: bold;
@@ -656,7 +656,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     color: white;
     text-indent: 40px;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .secondSchoolDescription a {
     position: absolute;
     top: 180px;
@@ -665,7 +665,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .thirdSchoolDescription {
     float: left;
     height: 286px;
@@ -691,7 +691,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     color: white;
     text-indent: 40px;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .thirdSchoolDescription a {
     position: absolute;
     top: 180px;
@@ -700,7 +700,6 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .imgThirdSchool {
     background-image: url("../images/UP.png");
@@ -1142,7 +1141,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     position: relative;
 }
 
-.right_part_footer .facebook {
+.right_part_footer .flickr {
     width: 40px;
     height: 40px;
     float: left;
