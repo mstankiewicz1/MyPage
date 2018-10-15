@@ -594,7 +594,16 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     width: 450px;
     text-align: left;
 }
-
+/*!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.firstSchoolDescription a {
+    position: absolute;
+    top: 220px;
+    left: 240px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .firstSchoolDescription p span {
     text-decoration: underline;
     font-weight: bold;
@@ -647,13 +656,16 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     color: white;
     text-indent: 40px;
 }
-
-.secondSchoolDescription li {
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.secondSchoolDescription a {
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 180px;
+    left: 265px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
 }
-
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .thirdSchoolDescription {
     float: left;
     height: 286px;
@@ -679,12 +691,16 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     color: white;
     text-indent: 40px;
 }
-
-.thirdSchoolDescription li {
+/*!!!!!!!!!!!!!!!!!!!!!!!*/
+.thirdSchoolDescription a {
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 180px;
+    left: 235px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .imgThirdSchool {
     background-image: url("../images/UP.png");
@@ -1082,6 +1098,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     letter-spacing: 3px;
 }
 
+
 #emailContact {
     position: absolute;
     top: 260px;
@@ -1092,6 +1109,9 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     letter-spacing: 3px;
 }
 
+#adressContact span, #phoneContact span, #emailContact span  {
+    text-decoration: underline;
+}
 
 /*copyright i fanpage*/
 
