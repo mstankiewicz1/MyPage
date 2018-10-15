@@ -1,7 +1,7 @@
 if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(function (polozenie) {
         var szer = polozenie.coords.latitude;
-        var dlug = polozenie.coords.longitude
+        var dlug = polozenie.coords.longitude;
 
         var koord = new google.maps.LatLng(szer, dlug);
 
