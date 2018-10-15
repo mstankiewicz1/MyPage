@@ -314,6 +314,54 @@ p.determinacja {
     left: 200px;
 }
 
+button.checkCodeFirstButtonFirstProject {
+    position: absolute;
+    top: 200px;
+    left: 125px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeSecondButtonFirstProject {
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirstProject:hover {
+    background-color: black;
+    border: 4px solid white;
+}
+
+a.firstLinkFirstProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.secondLinkFirstProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.firstLinkFirstProject:hover, a.secondLinkFirstProject:hover {
+    color: white;
+}
+
+button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirstProject:hover {
+    background-color: black;
+    border: 4px solid white;
+}
+
 .imgFirstDescription {
     background-image: url("../images/SitOnOurChairProject.png");
     float: left;
@@ -321,24 +369,6 @@ p.determinacja {
     width: 600px;
     border: 2px solid white;
 }
-
-
-
-
-/*animacja firstProject*/
-/*.firstProjectDescription:hover {
-    background-image: url("../images/SitOnOurChairProjectAnimacja.jpg");
-    width: 1200px;
-    height: 2273px;
-    transition-duration:4s;
-    -webkit-transition-duration: 4s;
-}*/
-/*Koniec animacji firstProject*/
-
-
-
-
-
 
 .secondProjectDescription {
     float: left;
@@ -380,6 +410,54 @@ p.determinacja {
     left: 200px;
 }
 
+button.checkCodeFirstButtonSecondProject {
+    position: absolute;
+    top: 200px;
+    left: 125px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeSecondButtonSecondProject {
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSecondProject:hover  {
+    background-color: black;
+    border: 4px solid white;
+}
+
+a.firstLinkSecondProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.secondLinkSecondProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.firstLinkSecondProject:hover, a.secondLinkSecondProject:hover {
+    color: white;
+}
+
+button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSecondProject:hover {
+    background-color: black;
+    border: 4px solid white;
+}
+
 .thirdProjectDescription {
     float: left;
     height: 286px;
@@ -391,7 +469,7 @@ p.determinacja {
 .thirdProjectDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 75px;
+    top: 50px;
     left: 220px;
     color: white;
     font-size: 25px;
@@ -400,7 +478,7 @@ p.determinacja {
 .thirdProjectDescription p {
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 120px;
+    top: 95px;
     left: 50px;
     color: white;
     text-indent: 40px;
@@ -410,6 +488,54 @@ p.determinacja {
     position: absolute;
     top: 200px;
     left: 200px;
+}
+
+button.checkCodeFirstButtonThirdProject {
+    position: absolute;
+    top: 200px;
+    left: 125px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeSecondButtonThirdProject {
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThirdProject:hover  {
+    background-color: black;
+    border: 4px solid white;
+}
+
+a.firstLinkThirdProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.secondLinkThirdProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.firstLinkThirdProject:hover, a.secondLinkThirdProject:hover {
+    color: white;
+}
+
+button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThirdProject:hover {
+    background-color: black;
+    border: 4px solid white;
 }
 
 .imgThirdDescription {
