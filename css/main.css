@@ -142,6 +142,13 @@ nav ul.menuHeader {
     top: 90px;
 }
 
+.menuHeader ul li ul:hover  {
+    display: block;
+    position: absolute;
+    left: -50px;
+    top: 90px;
+}
+
 
 /*gallery*/
 #gallery {
@@ -314,6 +321,24 @@ p.determinacja {
     width: 600px;
     border: 2px solid white;
 }
+
+
+
+
+/*animacja firstProject*/
+/*.firstProjectDescription:hover {
+    background-image: url("../images/SitOnOurChairProjectAnimacja.jpg");
+    width: 1200px;
+    height: 2273px;
+    transition-duration:4s;
+    -webkit-transition-duration: 4s;
+}*/
+/*Koniec animacji firstProject*/
+
+
+
+
+
 
 .secondProjectDescription {
     float: left;
@@ -697,7 +722,7 @@ p.determinacja {
 
 /*Stopka kontaktowa*/
 #contact {
-    height: 425px;
+    height: 460px;
     background-color: black;
     position: relative;
 }
@@ -940,6 +965,72 @@ p.determinacja {
     font-weight: bold;
     letter-spacing: 3px;
 }
+
+
+/*copyright i fanpage*/
+
+.left_part_footer {
+    height: 50px;
+    width: 65%;
+    float: left;
+    position: relative;
+}
+
+.left_part_footer p {
+    color: #C1C1C1;
+    font-size: 16px;
+    float: left;
+    height: 40px;
+    width: 65%;
+    line-height: 40px;
+    position: absolute;
+    top: 415px;
+    left: 35px;
+    letter-spacing: 0.5px;
+}
+
+.right_part_footer {
+    height: 50px;
+    width: 35%;
+    float: right;
+    position: relative;
+}
+
+.right_part_footer .facebook {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    left: -8px;
+    top: 415px;
+}
+
+.right_part_footer .vimeo {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    top: 415px;
+    left: 33px;
+}
+
+.right_part_footer .pinterest {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    top: 415px;
+    left: 74px;
+}
+.right_part_footer .twitter {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    top: 415px;
+    left: 111px;
+}
+
 
 
 
