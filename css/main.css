@@ -36,38 +36,15 @@ p a.nameAndSurname {
     float: left;
 }
 
-.cvPdfButton {
-    background-color: black;
-    opacity: .6;
-    position: absolute;
-    top: 45px;
-    left: 115px;
-    height: 30px;
-    width: 110px;
-}
-
-.cvPdfButton a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #848484;
-    font-weight: bold;
-}
-
-.cvPdfButton:hover {
-    border: 3px solid white;
-}
-
-.cvPdfButton a:hover {
-    color: white;
-}
-
-
 nav ul.menuHeader {
     float: right;
 }
 
 .menuHeader {
-    word-spacing: 0;
+    word-spacing: -0.5px;
+    position: absolute;
+    left: 400px;
+    width: 950px;
 }
 
 .menuHeader li a:first-child {
@@ -82,15 +59,26 @@ nav ul.menuHeader {
     position: relative;
 }
 
-.animacja {
+
+.menuHeader li#animacjaPobierzCV {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 3px;
+    right: 85px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+#animacjaPobierzCV {
     width:30px;
     height:30px;
     margin:0 auto;
     background-color:#000;
     color:white;
     text-align:center;
-    line-height:50px;
-    font-size:26px;
+    line-height:25px;
+    font-size:15px;
     animation:naszaAnimacja 4s linear infinite;
 }
 
@@ -105,10 +93,19 @@ nav ul.menuHeader {
     color: #848484;
     display: block;
     font-weight: bold;
+    letter-spacing: 0;
+}
+
+.menuHeader li a:last-child {
+    text-decoration: none;
+    color: #848484;
+    display: block;
+    font-weight: bold;
 }
 
 .menuHeader li:hover > a {
     color: white;
+    border: 2px solid white;
 }
 
 .menuHeader ul {
