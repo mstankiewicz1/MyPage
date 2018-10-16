@@ -1067,51 +1067,104 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     font-weight: bold;
     letter-spacing: 3px;
 }
-
-#adressContact {
+/*!!!!!!!!!!!!!!!!!!!!!!!*/
+#adressWord {
     position: absolute;
-    top: 80px;
+    top: 85px;
     font-family: 'Patrick Hand', cursive;
     color: white;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
     letter-spacing: 3px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
 }
 
-#streetContact {
+#streetAdress {
     position: absolute;
-    top: 142px;
+    top: 125px;
+    font-family: 'Patrick Hand', cursive;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+}
+
+#codeAndCityAdress {
+    font-family: 'Patrick Hand', cursive;
+    border: 4px solid white;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    top: 165px;
+    letter-spacing: 2px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#phoneWord {
+    position: absolute;
+    top: 215px;
     font-family: 'Patrick Hand', cursive;
     color: white;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
     letter-spacing: 3px;
+    border: 2px solid white;
+    padding: 3px 7px 3px 7px;
+    border-radius: 5px;
 }
 
-#phoneContact {
+#phoneNumber {
+    font-family: 'Patrick Hand', cursive;
+    border: 4px solid white;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
     position: absolute;
-    top: 185px;
+    top: 255px;
+    letter-spacing: 2px;
+}
+
+#emailWord {
+    position: absolute;
+    top: 305px;
     font-family: 'Patrick Hand', cursive;
     color: white;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
     letter-spacing: 3px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
 }
 
-
-#emailContact {
-    position: absolute;
-    top: 260px;
+#emailProperty {
     font-family: 'Patrick Hand', cursive;
-    color: white;
-    font-size: 25px;
+    border: 4px solid white;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+    background-color: white;
+    color: black;
     font-weight: bold;
-    letter-spacing: 3px;
+    font-size: 19px;
+    position: absolute;
+    top: 345px;
+    letter-spacing: 2px;
 }
 
-#adressContact span, #phoneContact span, #emailContact span  {
-    text-decoration: underline;
-}
 
 /*copyright i fanpage*/
 
