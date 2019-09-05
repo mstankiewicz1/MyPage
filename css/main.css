@@ -252,7 +252,7 @@ p.determinacja {
 
 /*projects*/
 #projects {
-    height: 700px;
+    height: 1300px;
     background-color: black;
     position: relative;
 }
@@ -282,7 +282,7 @@ p.determinacja {
 .firstProjectDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 50px;
+    top: 15px;
     left: 245px;
     color: white;
     font-size: 25px;
@@ -292,7 +292,7 @@ p.determinacja {
 .firstProjectDescription p{
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 50px;
     color: white;
     width: 450px;
@@ -308,7 +308,7 @@ p.determinacja {
 
 button.checkCodeFirstButtonFirstProject {
     position: absolute;
-    top: 200px;
+    top: 235px;
     left: 125px;
     border-radius: 5px;
     height: 35px;
@@ -317,7 +317,7 @@ button.checkCodeFirstButtonFirstProject {
 
 button.checkCodeSecondButtonFirstProject {
     position: absolute;
-    top: 200px;
+    top: 235px;
     left: 320px;
     border-radius: 5px;
     height: 35px;
@@ -358,7 +358,7 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 }
 
 .imgFirstDescription {
-    background-image: url("../images/TODO-App.png");
+    background-image: url("../images/ShopLista1.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -374,7 +374,7 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 }
 
 .imgSecondDescription {
-    background-image: url("../images/MemoryGame2.0.png");
+    background-image: url("../images/ContactBook.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -384,7 +384,7 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 .secondProjectDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 75px;
+    top: 25px;
     left: 220px;
     color: white;
     font-size: 25px;
@@ -393,7 +393,7 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 .secondProjectDescription p {
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 120px;
+    top:70px;
     left: 50px;
     color: white;
     text-indent: 40px;
@@ -407,7 +407,7 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 
 button.checkCodeFirstButtonSecondProject {
     position: absolute;
-    top: 200px;
+    top: 220px;
     left: 125px;
     border-radius: 5px;
     height: 35px;
@@ -416,7 +416,7 @@ button.checkCodeFirstButtonSecondProject {
 
 button.checkCodeSecondButtonSecondProject {
     position: absolute;
-    top: 200px;
+    top: 220px;
     left: 320px;
     border-radius: 5px;
     height: 35px;
@@ -456,7 +456,7 @@ button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSeco
     cursor: pointer;
 }
 
-/*.thirdProjectDescription {
+.thirdProjectDescription {
     float: left;
     height: 286px;
     width: 600px;
@@ -467,7 +467,7 @@ button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSeco
 .thirdProjectDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 50px;
+    top: 20px;
     left: 220px;
     color: white;
     font-size: 25px;
@@ -476,7 +476,7 @@ button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSeco
 .thirdProjectDescription p {
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 95px;
+    top: 65px;
     left: 50px;
     color: white;
     text-indent: 40px;
@@ -490,7 +490,7 @@ button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSeco
 
 button.checkCodeFirstButtonThirdProject {
     position: absolute;
-    top: 200px;
+    top: 230px;
     left: 125px;
     border-radius: 5px;
     height: 35px;
@@ -499,7 +499,7 @@ button.checkCodeFirstButtonThirdProject {
 
 button.checkCodeSecondButtonThirdProject {
     position: absolute;
-    top: 200px;
+    top: 230px;
     left: 320px;
     border-radius: 5px;
     height: 35px;
@@ -539,12 +539,12 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     cursor: pointer;
 }
 .imgThirdDescription {
-    background-image: url("../images/OrganizerApp.png");
+    background-image: url("../images/QuoteApp.png");
     float: left;
     height: 286px;
     width: 600px;
     border: 2px solid white;
-}*/
+}
 
 /*edukacja*/
 #education {
