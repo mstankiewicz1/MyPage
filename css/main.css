@@ -825,7 +825,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 
 /*edukacja*/
 #education {
-    height: 1000px;
+    height: 1300px;
     background-color: black;
     position: relative;
 }
@@ -919,8 +919,8 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .secondSchoolDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 75px;
-    left: 100px;
+    top: 50px;
+    left: 230px;
     color: white;
     font-size: 25px;
 }
@@ -932,6 +932,11 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     left: 50px;
     color: white;
     text-indent: 30px;
+}
+
+.secondSchoolDescription p span {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .secondSchoolDescription a {
@@ -979,12 +984,58 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 }
 
 .imgThirdSchool {
+    background-image: url("../images/UPV.png");
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
+
+/*////////////////////////////////////*/
+
+.fourthSchoolDescription {
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.imgFourthSchool {
     background-image: url("../images/UP.png");
     float: left;
     height: 286px;
     width: 600px;
     border: 2px solid white;
 }
+
+.fourthSchoolDescription h3 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.fourthSchoolDescription p {
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: white;
+    text-indent: 30px;
+}
+
+.fourthSchoolDescription a {
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 21px;
+}
+/*/////////////////////////////////*/
 
 /*UMIEJĘTNOŚCI*/
 #skills {
