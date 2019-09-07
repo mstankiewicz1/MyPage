@@ -650,7 +650,7 @@ button.checkCodeFirstButtonFourthProject:hover, button.checkCodeSecondButtonFour
     font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 20px;
-    left: 220px;
+    left: 150px;
     color: white;
     font-size: 25px;
 }
@@ -659,7 +659,7 @@ button.checkCodeFirstButtonFourthProject:hover, button.checkCodeSecondButtonFour
     font-family: 'Kalam', cursive;
     position: absolute;
     top: 65px;
-    left: 50px;
+    left: 25px;
     color: white;
     text-indent: 40px;
 }
@@ -721,7 +721,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
     cursor: pointer;
 }
 .imgFifthDescription {
-    background-image: url("../images/QuoteApp.png");
+    background-image: url("../images/Bootstrap1.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -739,7 +739,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
 }
 
 .imgSixthDescription {
-    background-image: url("../images/MemoryGame2.0.png");
+    background-image: url("../images/Bootstrap2.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -750,7 +750,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
     font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 30px;
-    left: 220px;
+    left: 165px;
     color: white;
     font-size: 25px;
 }
@@ -759,7 +759,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
     font-family: 'Kalam', cursive;
     position: absolute;
     top: 100px;
-    left: 50px;
+    left: 25px;
     color: white;
     text-indent: 40px;
 }
@@ -1038,7 +1038,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 
 /*UMIEJĘTNOŚCI*/
 #skills {
-    height: 400px;
+    height: 520px;
     background-color: black;
     position: relative;
 }
@@ -1147,25 +1147,25 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 
 .firstAnimationSkills {
     position: absolute;
-    top: 265px;
+    top: 180px;
     left: 100px;
 }
 
 .secondAnimationSkills {
     position: absolute;
-    top: 125px;
+    top: 285px;
     left: 420px;
 }
 
 .thirdAnimationSkills {
     position: absolute;
-    top: 205px;
+    top: 120px;
     left: 725px;
 }
 
 .fourthAnimationSkills {
     position: absolute;
-    top: 150px;
+    top: 195px;
     right: 100px;
 }
 
