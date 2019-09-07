@@ -124,7 +124,6 @@ nav ul.menuHeader {
     background-color: black;
     font-size: 18px;
     border: 2px solid white;
-
 }
 
 .menuHeader li:hover > ul {
@@ -251,7 +250,7 @@ p.determinacja {
 
 /*projects*/
 #projects {
-    height: 1875px;
+    height: 1600px;
     background-color: black;
     position: relative;
 }
@@ -466,8 +465,8 @@ button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSeco
 .thirdProjectDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 20px;
-    left: 220px;
+    top: 40px;
+    left: 250px;
     color: white;
     font-size: 25px;
 }
@@ -475,8 +474,8 @@ button.checkCodeFirstButtonSecondProject:hover, button.checkCodeSecondButtonSeco
 .thirdProjectDescription p {
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 65px;
-    left: 50px;
+    top: 100px;
+    left: 20px;
     color: white;
     text-indent: 40px;
 }
@@ -721,7 +720,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
     cursor: pointer;
 }
 .imgFifthDescription {
-    background-image: url("../images/Bootstrap1.png");
+    background-image: url("../images/Bootstrap2.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -758,7 +757,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
 .sixthProjectDescription p {
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 100px;
+    top: 85px;
     left: 25px;
     color: white;
     text-indent: 40px;
@@ -772,7 +771,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
 
 button.checkCodeFirstButtonSixthProject {
     position: absolute;
-    top: 200px;
+    top: 220px;
     left: 125px;
     border-radius: 5px;
     height: 35px;
@@ -781,7 +780,7 @@ button.checkCodeFirstButtonSixthProject {
 
 button.checkCodeSecondButtonSixthProject {
     position: absolute;
-    top: 200px;
+    top: 220px;
     left: 320px;
     border-radius: 5px;
     height: 35px;
@@ -1165,7 +1164,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 
 .fourthAnimationSkills {
     position: absolute;
-    top: 195px;
+    top: 175px;
     right: 100px;
 }
 
