@@ -855,7 +855,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .firstSchoolDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 75px;
+    top: 50px;
     left: 250px;
     color: white;
     font-size: 25px;
@@ -909,7 +909,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 }
 
 .imgSecondSchool {
-    background-image: url("../images/UPV.png");
+    background-image: url("../images/akademia-kodu.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -919,7 +919,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .secondSchoolDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 230px;
     color: white;
     font-size: 25px;
@@ -928,10 +928,9 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .secondSchoolDescription p {
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 120px;
-    left: 50px;
+    top: 90px;
+    left: 35px;
     color: white;
-    text-indent: 30px;
 }
 
 .secondSchoolDescription p span {
@@ -941,8 +940,8 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 
 .secondSchoolDescription a {
     position: absolute;
-    top: 180px;
-    left: 250px;
+    top: 225px;
+    left: 225px;
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 21px;
@@ -959,8 +958,8 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .thirdSchoolDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 75px;
-    left: 135px;
+    top: 50px;
+    left: 110px;
     color: white;
     font-size: 25px;
 }
@@ -977,7 +976,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .thirdSchoolDescription a {
     position: absolute;
     top: 180px;
-    left: 235px;
+    left: 255px;
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 21px;
@@ -1012,8 +1011,8 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .fourthSchoolDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 75px;
-    left: 100px;
+    top: 50px;
+    left: 120px;
     color: white;
     font-size: 25px;
 }
@@ -1022,7 +1021,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     font-family: 'Kalam', cursive;
     position: absolute;
     top: 120px;
-    left: 50px;
+    left: 75px;
     color: white;
     text-indent: 30px;
 }
@@ -1030,7 +1029,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
 .fourthSchoolDescription a {
     position: absolute;
     top: 180px;
-    left: 250px;
+    left: 220px;
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 21px;
