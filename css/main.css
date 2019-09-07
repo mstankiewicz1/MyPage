@@ -649,7 +649,7 @@ button.checkCodeFirstButtonFourthProject:hover, button.checkCodeSecondButtonFour
 .fifthProjectDescription h3 {
     font-family: 'Patrick Hand', cursive;
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 150px;
     color: white;
     font-size: 25px;
@@ -658,7 +658,7 @@ button.checkCodeFirstButtonFourthProject:hover, button.checkCodeSecondButtonFour
 .fifthProjectDescription p {
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 65px;
+    top: 100px;
     left: 25px;
     color: white;
     text-indent: 40px;
