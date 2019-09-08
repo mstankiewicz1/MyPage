@@ -543,7 +543,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     width: 600px;
     border: 2px solid white;
 }
-/*///////////////////////////////////////////////*/
+
 .fourthProjectDescription {
     float: left;
     height: 286px;
@@ -635,8 +635,6 @@ button.checkCodeFirstButtonFourthProject:hover, button.checkCodeSecondButtonFour
     cursor: pointer;
 }
 
-/*///////////////////////////////////////////////////*/
-
 .fifthProjectDescription {
     float: left;
     height: 286px;
@@ -726,8 +724,6 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
     width: 600px;
     border: 2px solid white;
 }
-
-/*///////////////////////////////////////*/
 
 .sixthProjectDescription {
     float: left;
@@ -819,8 +815,6 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     border: 4px solid white;
     cursor: pointer;
 }
-
-/*///////////////////////////////////////////*/
 
 /*edukacja*/
 #education {
@@ -989,8 +983,6 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     border: 2px solid white;
 }
 
-/*////////////////////////////////////*/
-
 .fourthSchoolDescription {
     float: left;
     height: 286px;
@@ -1033,7 +1025,6 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     font-family: 'Patrick Hand', cursive;
     font-size: 21px;
 }
-/*/////////////////////////////////*/
 
 /*UMIEJĘTNOŚCI*/
 #skills {
@@ -1281,7 +1272,7 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     font-weight: bold;
     letter-spacing: 3px;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!*/
+
 #adressWord {
     position: absolute;
     top: 85px;
@@ -1322,7 +1313,6 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     top: 165px;
     letter-spacing: 2px;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 #phoneWord {
     position: absolute;
