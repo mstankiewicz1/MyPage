@@ -250,7 +250,7 @@ p.determinacja {
 
 /*projects*/
 #projects {
-    height: 2725px;
+    height: 2940px;
     background-color: black;
     position: relative;
 }
@@ -272,7 +272,7 @@ p.determinacja {
 
 .firstProjectDescription {
      float: left;
-     height: 286px;
+     height: 500px;
      width: 600px;
      border: 2px solid white;
 }
@@ -290,7 +290,7 @@ p.determinacja {
 .firstProjectDescription p{
     font-family: 'Kalam', cursive;
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 50px;
     color: white;
     width: 450px;
@@ -306,8 +306,8 @@ p.determinacja {
 
 button.checkCodeFirstButtonFirstProject {
     position: absolute;
-    top: 235px;
-    left: 125px;
+    top: 430px;
+    left: 225px;
     border-radius: 5px;
     height: 35px;
     background-color: white;
@@ -356,9 +356,9 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 }
 
 .imgFirstDescription {
-    background-image: url("../images/ShopLista1.png");
+    background-image: url("../images/SmartCrm2.1.png");
     float: left;
-    height: 286px;
+    height: 500px;
     width: 600px;
     border: 2px solid white;
 }
@@ -372,7 +372,7 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 }
 
 .imgSecondDescription {
-    background-image: url("../images/ContactBook.png");
+    background-image: url("../images/ShopLista1.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -405,7 +405,7 @@ button.checkCodeFirstButtonFirstProject:hover, button.checkCodeSecondButtonFirst
 
 button.checkCodeFirstButtonSecondProject {
     position: absolute;
-    top: 220px;
+    top: 230px;
     left: 125px;
     border-radius: 5px;
     height: 35px;
@@ -414,7 +414,7 @@ button.checkCodeFirstButtonSecondProject {
 
 button.checkCodeSecondButtonSecondProject {
     position: absolute;
-    top: 220px;
+    top: 230px;
     left: 320px;
     border-radius: 5px;
     height: 35px;
@@ -537,7 +537,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
     cursor: pointer;
 }
 .imgThirdDescription {
-    background-image: url("../images/QuoteApp.png");
+    background-image: url("../images/ContactBook.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -553,7 +553,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
 }
 
 .imgFourthDescription {
-    background-image: url("../images/MemoryGame2.0.png");
+    background-image: url("../images/SportQuestionApp.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -586,7 +586,7 @@ button.checkCodeFirstButtonThirdProject:hover, button.checkCodeSecondButtonThird
 
 button.checkCodeFirstButtonFourthProject {
     position: absolute;
-    top: 200px;
+    top: 210px;
     left: 125px;
     border-radius: 5px;
     height: 35px;
@@ -595,7 +595,7 @@ button.checkCodeFirstButtonFourthProject {
 
 button.checkCodeSecondButtonFourthProject {
     position: absolute;
-    top: 200px;
+    top: 210px;
     left: 320px;
     border-radius: 5px;
     height: 35px;
@@ -647,7 +647,7 @@ button.checkCodeFirstButtonFourthProject:hover, button.checkCodeSecondButtonFour
     font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 30px;
-    left: 150px;
+    left: 240px;
     color: white;
     font-size: 25px;
 }
@@ -718,12 +718,14 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
     cursor: pointer;
 }
 .imgFifthDescription {
-    background-image: url("../images/Bootstrap2.png");
+    background-image: url("../images/WeatherApp.png");
     float: left;
     height: 286px;
     width: 600px;
     border: 2px solid white;
 }
+
+/*////////////////// sixthProject ////////////////*/
 
 .sixthProjectDescription {
     float: left;
@@ -734,7 +736,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
 }
 
 .imgSixthDescription {
-    background-image: url("../images/Bootstrap2.png");
+    background-image: url("../images/QuoteApp.png");
     float: left;
     height: 286px;
     width: 600px;
@@ -745,7 +747,7 @@ button.checkCodeFirstButtonFifthProject:hover, button.checkCodeSecondButtonFifth
     font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 30px;
-    left: 165px;
+    left: 250px;
     color: white;
     font-size: 25px;
 }
@@ -815,6 +817,293 @@ button.checkCodeFirstButtonSixthProject:hover, button.checkCodeSecondButtonSixth
     border: 4px solid white;
     cursor: pointer;
 }
+
+/*////////////////// koniec sixthProject ////////////////*/
+
+/*////////////////// seventhProject ////////////////*/
+
+.seventhProjectDescription {
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.imgSeventhDescription {
+    background-image: url("../images/CalculatorApp3.0.png");
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
+
+.seventhProjectDescription h3 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    color: white;
+    font-size: 25px;
+}
+
+.seventhProjectDescription p {
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 85px;
+    left: 25px;
+    color: white;
+    text-indent: 40px;
+}
+
+.seventhProjectDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+button.checkCodeFirstButtonSeventhProject {
+    position: absolute;
+    top: 220px;
+    left: 125px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeSecondButtonSeventhProject {
+    position: absolute;
+    top: 220px;
+    left: 320px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeFirstButtonSeventhProject:hover, button.checkCodeSecondButtonSeventhProject:hover  {
+    background-color: black;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+a.firstLinkSeventhProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.secondLinkSeventhProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.firstLinkSeventhProject:hover, a.secondLinkSeventhProject:hover {
+    color: white;
+    cursor: pointer;
+}
+
+button.checkCodeFirstButtonSeventhProject:hover, button.checkCodeSecondButtonSeventhProject:hover {
+    background-color: black;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+/*////////////////// koniec seventhProject ////////////////*/
+
+/*////////////////// EighthProject ////////////////*/
+
+.eighthProjectDescription {
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.imgEighthDescription {
+    background-image: url("../images/MemoryGame2.0.png");
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
+
+.eighthProjectDescription h3 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 30px;
+    left: 225px;
+    color: white;
+    font-size: 25px;
+}
+
+.eighthProjectDescription p {
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 85px;
+    left: 25px;
+    color: white;
+    text-indent: 40px;
+}
+
+.eighthProjectDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+button.checkCodeFirstButtonEighthProject {
+    position: absolute;
+    top: 220px;
+    left: 125px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeSecondButtonEighthProject {
+    position: absolute;
+    top: 220px;
+    left: 320px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeFirstButtonEighthProject:hover, button.checkCodeSecondButtonEighthProject:hover  {
+    background-color: black;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+a.firstLinkEighthProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.secondLinkEighthProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.firstLinkEighthProject:hover, a.secondLinkEighthProject:hover {
+    color: white;
+    cursor: pointer;
+}
+
+button.checkCodeFirstButtonEighthProject:hover, button.checkCodeSecondButtonEighthProject:hover {
+    background-color: black;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+/*////////////////// koniec EighthProject ////////////////*/
+
+/*////////////////// NinthProject ////////////////*/
+
+.ninthProjectDescription {
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.imgNinthDescription {
+    background-image: url("../images/Bootstrap2.png");
+    float: left;
+    height: 286px;
+    width: 600px;
+    border: 2px solid white;
+}
+
+.ninthProjectDescription h3 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    color: white;
+    font-size: 25px;
+}
+
+.ninthProjectDescription p {
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 85px;
+    left: 25px;
+    color: white;
+    text-indent: 40px;
+}
+
+.ninthProjectDescription li {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+button.checkCodeFirstButtonNinthProject {
+    position: absolute;
+    top: 220px;
+    left: 125px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeSecondButtonNinthProject {
+    position: absolute;
+    top: 220px;
+    left: 320px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+button.checkCodeFirstButtonNinthProject:hover, button.checkCodeSecondButtonNinthProject:hover  {
+    background-color: black;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+a.firstLinkNinthProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.secondLinkNinthProject {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+a.firstLinkNinthProject:hover, a.secondLinkNinthProject:hover {
+    color: white;
+    cursor: pointer;
+}
+
+button.checkCodeFirstButtonNinthProject:hover, button.checkCodeSecondButtonNinthProject:hover {
+    background-color: black;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+/*////////////////// koniec NinthProject ////////////////*/
 
 /*edukacja*/
 #education {
